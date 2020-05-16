@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="border.css">
+
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="iso">
+            <div class="wrap" style="--v: 0; --h: 0; --ax: 0; --val: 42; --sf: 1">
+                <input type="range" value="42" id="rx00"/>
+                <label for="rx00"><span>top left</span>
+                <var>rx</var>
+                <output></output>
+                </label>
+            </div>
+            <div class="wrap" style="--v: 0; --h: 0; --ax: 1; --val: 41; --sf: 1">
+                <input type="range" value="41" id="ry00"/>
+                <label for="ry00"><span>top left</span>
+                <var>ry</var>
+                <output></output>
+                </label>
+            </div>
+            <div class="wrap" style="--v: 0; --h: 1; --ax: 0; --val: 45; --sf: -1">
+                <input type="range" value="45" id="rx01"/>
+                <label for="rx01"><span>top right</span>
+                <var>rx</var>
+                <output></output>
+                </label>
+            </div>
+            <div class="wrap" style="--v: 0; --h: 1; --ax: 1; --val: 44; --sf: 1">
+                <input type="range" value="44" id="ry01"/>
+                <label for="ry01"><span>top right</span>
+                <var>ry</var>
+                <output></output>
+                </label>
+            </div>
+            <div class="wrap" style="--v: 1; --h: 0; --ax: 0; --val: 41; --sf: 1">
+                <input type="range" value="41" id="rx10"/>
+                <label for="rx10"><span>bottom left</span>
+                <var>rx</var>
+                <output></output>
+                </label>
+            </div>
+            <div class="wrap" style="--v: 1; --h: 0; --ax: 1; --val: 40; --sf: -1">
+                <input type="range" value="40" id="ry10"/>
+                <label for="ry10"><span>bottom left</span>
+                <var>ry</var>
+                <output></output>
+                </label>
+            </div>
+            <div class="wrap" style="--v: 1; --h: 1; --ax: 0; --val: 42; --sf: -1">
+                <input type="range" value="42" id="rx11"/>
+                <label for="rx11"><span>bottom right</span>
+                <var>rx</var>
+                <output></output>
+                </label>
+            </div>
+            <div class="wrap" style="--v: 1; --h: 1; --ax: 1; --val: 45; --sf: -1">
+                <input type="range" value="45" id="ry11"/>
+                <label for="ry11"><span>bottom right</span>
+                <var>ry</var>
+                <output></output>
+                </label>
+            </div>
+            </div>
+            <div id="blob" style="--rx00: 42%;--ry00: 41%;--rx01: 45%;--ry01: 44%;--rx10: 41%;--ry10: 40%;--rx11: 42%;--ry11: 45%;"></div>
+      </div>
+    </section>
+    <!-- <pre id="code"></pre> -->
+    <script src="border.js"></script>
+</body>
